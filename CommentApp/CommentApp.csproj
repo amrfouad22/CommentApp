@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED596441-A309-44B4-858B-E40F705B2437}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommentApp</RootNamespace>
+    <AssemblyName>CommentApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{d5cd61d6-4e8e-4695-ae4e-1367592aa389}</AppFeaturePartId>
+    <WspPartId>{61a866a2-6e9d-485d-bc92-91348f33efac}</WspPartId>
+    <WorkflowPartId>{8fa607d0-d3f6-42e1-95bf-4609c88e9004}</WorkflowPartId>
+    <CspkgPartId>{cf1555e9-be02-48e1-b84f-74ac9a92cc66}</CspkgPartId>
+    <SqlPackagePartId>{54228b7a-2bce-433b-9aa1-3c295a633a25}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2bcceb9d-33fb-4326-af29-4db0f2f01ca2}</SharePointProjectItemId>
+    </None>
+    <None Include="assets\css\fonts\star.eot" />
+    <None Include="assets\css\fonts\star.ttf" />
+    <None Include="assets\css\fonts\star.woff" />
+    <None Include="assets\img\Thumbs.db" />
+    <None Include="assets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d266b91-3c02-4b44-a2ce-717b7beef7d8}</SharePointProjectItemId>
+    </None>
+    <None Include="assets\vendor\bootstrap\bootstrap-theme.css.map" />
+    <None Include="assets\vendor\bootstrap\bootstrap.css.map" />
+    <None Include="assets\vendor\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="assets\vendor\bootstrap\glyphicons-halflings-regular.ttf" />
+    <None Include="assets\vendor\bootstrap\glyphicons-halflings-regular.woff" />
+    <None Include="assets\vendor\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="assets\vendor\fontawesome\fonts\fontawesome-webfont.eot" />
+    <None Include="assets\vendor\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="assets\vendor\fontawesome\fonts\fontawesome-webfont.woff" />
+    <None Include="assets\vendor\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="assets\vendor\fontawesome\fonts\FontAwesome.otf" />
+    <None Include="assets\vendor\fontawesome\less\animated.less" />
+    <None Include="assets\vendor\fontawesome\less\bordered-pulled.less" />
+    <None Include="assets\vendor\fontawesome\less\core.less" />
+    <None Include="assets\vendor\fontawesome\less\fixed-width.less" />
+    <None Include="assets\vendor\fontawesome\less\font-awesome.less" />
+    <None Include="assets\vendor\fontawesome\less\icons.less" />
+    <None Include="assets\vendor\fontawesome\less\larger.less" />
+    <None Include="assets\vendor\fontawesome\less\list.less" />
+    <None Include="assets\vendor\fontawesome\less\mixins.less" />
+    <None Include="assets\vendor\fontawesome\less\path.less" />
+    <None Include="assets\vendor\fontawesome\less\rotated-flipped.less" />
+    <None Include="assets\vendor\fontawesome\less\stacked.less" />
+    <None Include="assets\vendor\fontawesome\less\variables.less" />
+    <None Include="assets\vendor\fontawesome\scss\font-awesome.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_animated.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_bordered-pulled.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_core.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_fixed-width.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_icons.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_larger.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_list.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_mixins.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_path.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_rotated-flipped.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_stacked.scss" />
+    <None Include="assets\vendor\fontawesome\scss\_variables.scss" />
+    <None Include="CommentApp\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a38e5d14-706d-480f-b0cb-91f7918c7a90}</SharePointProjectItemId>
+    </None>
+    <None Include="CommentList\CommentListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef9a692d-da2a-4bb1-85f3-aaeec448e1e6}</SharePointProjectItemId>
+    </None>
+    <None Include="CommentList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3cc715ef-a853-4483-aa11-770123166354}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a197e7a2-ea7f-4295-a8e9-e185e477705e}</SharePointProjectItemId>
+    </None>
+    <Content Include="app\app.js" />
+    <Content Include="app\controllers\mainController.js" />
+    <Content Include="app\directives\comments.js" />
+    <Content Include="app\Elements.xml" />
+    <Content Include="app\Sample.txt" />
+    <Content Include="app\services\commentSvc.js" />
+    <Content Include="app\templates\comments.html" />
+    <Content Include="app\views\main.html" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\fonts\star.svg" />
+    <Content Include="assets\css\ie.css" />
+    <Content Include="assets\css\skins\default.css" />
+    <Content Include="assets\css\theme-animate.css" />
+    <Content Include="assets\css\theme-blog.css" />
+    <Content Include="assets\css\theme-elements.css" />
+    <Content Include="assets\css\theme-shop.css" />
+    <Content Include="assets\css\theme.css" />
+    <Content Include="assets\Elements.xml" />
+    <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\theme.init.js" />
+    <Content Include="assets\js\theme.js" />
+    <Content Include="assets\js\views\view.contact.js" />
+    <Content Include="assets\js\views\view.home.js" />
+    <Content Include="assets\Sample.txt" />
+    <Content Include="assets\vendor\bootstrap\bootstrap-theme.css" />
+    <Content Include="assets\vendor\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="assets\vendor\bootstrap\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\bootstrap.min.js" />
+    <Content Include="assets\vendor\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\vendor\bootstrap\npm.js" />
+    <Content Include="assets\vendor\common\common.js" />
+    <Content Include="assets\vendor\fontawesome\css\font-awesome.css" />
+    <Content Include="assets\vendor\fontawesome\css\font-awesome.min.css" />
+    <Content Include="assets\vendor\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\vendor\jquery\jquery.js" />
+    <Content Include="assets\vendor\modernizr\modernizr.js" />
+    <Content Include="CommentApp\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="CommentList\CommentListInstance\Elements.xml" />
+    <Content Include="CommentList\Elements.xml" />
+    <Content Include="CommentList\Schema.xml" />
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\CommentApp.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1cbf642e-01b2-46c7-bd83-525494855afd}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54228b7a-2bce-433b-9aa1-3c295a633a25}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{57fce7e8-a4c0-4299-b8a6-70925bff6e5b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51ca080f-5cca-4fb6-b98d-70f13756adfb}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{50ec3451-0930-4b6f-897c-71a6320d12ad}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{8eed8ba9-290f-4d28-af88-f58d209d8c8e}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

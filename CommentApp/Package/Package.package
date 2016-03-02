@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="50ec3451-0930-4b6f-897c-71a6320d12ad" 
+        solutionId="50ec3451-0930-4b6f-897c-71a6320d12ad" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="CommentApp"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="8eed8ba9-290f-4d28-af88-f58d209d8c8e" />
+  </features>
+</package>
